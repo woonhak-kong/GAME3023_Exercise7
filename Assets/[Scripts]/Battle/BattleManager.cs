@@ -36,6 +36,7 @@ public class BattleManager : MonoBehaviour
             btn.GetComponent<Button>().onClick.AddListener(() =>
             {
                 battleSceneManager.PlayerDesc.text = skill.Effect;
+                Enemy.status.HP -= skill.damage;
                 StartCoroutine(SetTurnSetting());
             });
 
@@ -48,6 +49,7 @@ public class BattleManager : MonoBehaviour
             btn.GetComponent<Button>().onClick.AddListener(() =>
             {
                 battleSceneManager.EnemyDesc.text = skill.Effect;
+                Player.status.HP -= skill.damage;
                 StartCoroutine(SetTurnSetting());
             });
         }
