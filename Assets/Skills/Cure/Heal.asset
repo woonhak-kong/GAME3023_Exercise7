@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a94fedc2b2c3884c964b068d01787d6, type: 3}
-  m_Name: IceBall
+  m_Name: Heal
   m_EditorClassIdentifier: 
-  skillName: Ice Ball
-  damage: 20
-  Effect: Ice Ball!
+  skillName: Heal
+  damageValue: 0
+  healValue: 50
+  manaCost: 20
+  Effect: Cure!
+  type: 1

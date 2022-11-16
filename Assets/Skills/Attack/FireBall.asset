@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a94fedc2b2c3884c964b068d01787d6, type: 3}
-  m_Name: Kick
+  m_Name: FireBall
   m_EditorClassIdentifier: 
-  skillName: Kick
-  damage: 5
-  Effect: Kick!
+  skillName: FireBall
+  damageValue: 20
+  healValue: 0
+  manaCost: 20
+  Effect: Fire Ball!!
+  type: 0

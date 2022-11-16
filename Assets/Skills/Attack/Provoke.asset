@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a94fedc2b2c3884c964b068d01787d6, type: 3}
-  m_Name: Attack
+  m_Name: Provoke
   m_EditorClassIdentifier: 
-  skillName: Attack
-  damage: 10
-  Effect: Attack!
+  skillName: Provoke
+  damageValue: 0
+  healValue: 0
+  manaCost: 5
+  Effect: Provoking~
+  type: 0

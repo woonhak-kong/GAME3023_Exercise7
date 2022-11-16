@@ -2,11 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Skill")]
+
+public enum SkillType
+{
+    ATTACK,
+    HEAL,
+}
+
+[CreateAssetMenu(fileName = "Skill", menuName = "Custom/Skill")]
 public class Skill :ScriptableObject
 {
     public string skillName;
-    public int damage;
+    public int damageValue;
+    public int healValue;
+    public int manaCost;
     public string Effect;
+
+
+    public SkillType type;
 
 }

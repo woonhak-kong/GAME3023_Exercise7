@@ -7,7 +7,9 @@ public class Status
 {
     [Header("Statsus")]
     public int HP;
+    public int Mana;
     [Header("Skills")]
-    public List<Skill> SkillList;
+    public List<Skill> AttackSkillList;
+    public List<Skill> CureSkillList;
 
 }
